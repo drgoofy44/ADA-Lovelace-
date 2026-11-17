@@ -1,17 +1,56 @@
-body { background-color: limegreen; margin: 25px;font-family: "Times New Roman";color: darkgreen;}
+body {
+    background-color: #168900;
+    color: black;
+    font-family: Georgia, serif;
+    margin: 5px;
+    padding: 3px;
+}
 
+/* Main Title */
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
 
-h1 {color: yellow; text-align: center; text-decoration: underline;}
+/* Section Headings */
+h3 {
+    color: black;
+    font-size: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
 
+/* Paragraphs */
+p {
+    color: black;
+    font-size: 9px;
+    line-height: 1.25;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
-h2{color: darkgreen;}
+/* White Lines */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+/* Picture */
+img {
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+}
 
-h3 {color: darkgreen;}
-
-
-p { color: darkgreen; font-size: 14px;}
-
-
-hr {background-color: white;height: 2px;
-    border: none;}
+/* Links */
+a {
+    color: blue;
+    font-size: 9px;
+    text-decoration: underline;
+}
